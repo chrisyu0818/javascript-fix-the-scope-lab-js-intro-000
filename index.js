@@ -11,9 +11,12 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: Hard-coding 'cat' below will not work
-  yourAnimal = 'cat'
+  var animal = 'cat'
   return animal 
 }
+yourAnimal();
+animal 
+
 
 function add2(n) {
   return n + two
